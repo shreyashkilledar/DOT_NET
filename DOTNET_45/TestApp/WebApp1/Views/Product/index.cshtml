@@ -1,0 +1,23 @@
+@using cataloge;
+
+@{
+    ViewData["Title"]="FlowerShop";
+}
+<div class="text-center"> </div>
+
+@{
+    Product P1=ViewData["Flowers"]as Product;
+}
+
+<h1> Flowers</h1>
+<hr/>
+
+
+<img src ="/Images/R1.png" width="200" height="200"/>
+
+<img src="/Images/R3.png" width="200" height="200"/>
+<p>Flower name=@P1.pname</p>
+<p>Flower Description=@P1.pdesc</p>
+<p>Flower qty=@P1.qty</p>
+<p>Flower price=@P1.price</p>
+
