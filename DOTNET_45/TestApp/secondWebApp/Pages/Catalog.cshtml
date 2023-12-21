@@ -1,0 +1,24 @@
+@page
+@using Catalog
+
+@{
+    Product p1=new Product();
+    p1.Id=1;
+    p1.Title="Watch";
+   p1.Description=" Fastrack";
+     p1.UnitPrice=10000;
+    p1.Quantity=5;
+     p1.Imageurl="/images/Watch1.png"; 
+     p1.Imageurl="/images/Watch2.png";
+}
+
+<h1> watch details</h1>
+<hr/>
+<img src="/images/Watch1.png" width="100" height="100"/>
+<img src="/images/Watch3.png" width="100" height="100"/>
+<p>Id:@p1.Id</p>
+<p>Title:@p1.Title</p>
+<p>Description:@p1.Description</p>
+<p>UnitPrice:@p1.UnitPrice</p>
+<p>Quantity:@p1.Quantity</p>
+<button>Add to Cart</button>
