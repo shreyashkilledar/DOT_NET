@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\bin\Debug\net8.0\CSFeatureApp.exe
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\bin\Debug\net8.0\CSFeatureApp.deps.json
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\bin\Debug\net8.0\CSFeatureApp.runtimeconfig.json
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\bin\Debug\net8.0\CSFeatureApp.dll
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\bin\Debug\net8.0\CSFeatureApp.pdb
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.AssemblyInfo.cs
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.dll
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\refint\CSFeatureApp.dll
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.pdb
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\CSFeatureApp.genruntimeconfig.cache
+C:\Users\IET\Desktop\DOTNET_11\CSSolution\CSFeatureApp\obj\Debug\net8.0\ref\CSFeatureApp.dll
