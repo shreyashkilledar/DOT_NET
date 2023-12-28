@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\PG-DAC\\PROGRAMMING\\DOTNET\\WebSolution\\BOL\\BOL.csproj": {}
+    "D:\\Ravi\\CDAC\\PGDAC\\IET\\Sept23\\Day8\\WebSolution\\BOL\\BOL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\PG-DAC\\PROGRAMMING\\DOTNET\\WebSolution\\BOL\\BOL.csproj": {
+    "D:\\Ravi\\CDAC\\PGDAC\\IET\\Sept23\\Day8\\WebSolution\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\PG-DAC\\PROGRAMMING\\DOTNET\\WebSolution\\BOL\\BOL.csproj",
+        "projectUniqueName": "D:\\Ravi\\CDAC\\PGDAC\\IET\\Sept23\\Day8\\WebSolution\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\HP\\Desktop\\PG-DAC\\PROGRAMMING\\DOTNET\\WebSolution\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\PG-DAC\\PROGRAMMING\\DOTNET\\WebSolution\\BOL\\obj\\",
+        "projectPath": "D:\\Ravi\\CDAC\\PGDAC\\IET\\Sept23\\Day8\\WebSolution\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+        "outputPath": "D:\\Ravi\\CDAC\\PGDAC\\IET\\Sept23\\Day8\\WebSolution\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

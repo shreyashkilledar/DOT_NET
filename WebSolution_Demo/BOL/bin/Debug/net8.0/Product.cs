@@ -1,79 +1,100 @@
 ﻿namespace BOL;
-
 public class Product
 {
 
+  private int id;
+    private string title;
+    private string imageURL;
+    private string category;
+    private string description;
+    private float unitPrice;
+    private int balance;
+    private string paymentTerm;
+    private string delivery;
+
+
+     public Product(){
+    }
+
+    public Product(int productId, string title){
+        this.id = productId;
+        this.title = title;
+        
+    }
+
+    public Product(int productId, string title, string brand, string category){
+        this.id = productId;
+        this.title = title;       
+        this.category = category;
+    }
+
+     public Product(int productId, string title, string brand,
+                    string category, float unitPrice, int balance){
+        this.id = productId;
+        this.title = title;
+        this.category = category;
+        this.unitPrice = unitPrice;
+        this.balance = balance;
+    }
+
+    public Product(int productId, string title, string brand, string category,
+                    float unitPrice, 
+                    int balance, string description, string imageURL){
+        this.id = productId;
+        this.title = title;   
+        this.category = category;
+        this.unitPrice = unitPrice;
+        this.balance = balance;
+        this.description = description;
+        this.imageURL = imageURL;
+    }
+
+    //Properties of Product Entity
+
     public int Id{
-       get;
-       set;
+        get { return id; }
+        set { id = value; }
     }
-    public string Name{
-        get;
-        set;
-    }
-    public string Description
-    {
-        get;
-        set;
-    }
-    public int Qty{
-        get;
-        set;
-    }
-    public int Price
-    {
-        get;
-        set;
-    }
-
-    // private int id;
-    // private string name;
-    // private string description;
-    // private int qty;
-    // private int price;
-
-    // public Product(int id,string name,string description,int qty,int price)
-    // {
-    //     this.id = id;
-    //     this.name = name;
-    //     this.description = description;
-    //     this.qty = qty;
-    //     this.price = price;
-    // }
     
-//     //Properties of Product Entity
+    public string Title{
+            get { return title; }
+            set { title = value; }
+    }
 
-//     public int id
-//     {
-//         get { return id; }
-//         set { id = value; }
-//     }
 
-//     public int name
-//     {
-//         get { return name; }
-//         set { name = value; }
-//     }
-      
-//     public int description
-//     {
-//         get { return description; }
-//         set { description = value; }
-//     }
-   
-//     public int qty
-//     {
-//         get { return qty; }
-//         set { qty = value; }
-//     }
+    public string Category{
+        get { return category; }
+        set { category = value; }
+    }
+        
+    public string Description{
+        get { return description; }
+        set { description = value; }
+    }
 
-//    public int price
-//     {
-//         get { return price; }
-//         set { price = value; }
-//     }
     
+    public string PaymentTerm{
+        get { return paymentTerm;}
+        set { paymentTerm = value; }
+    }
+
+    public string Delivery {
+        get{  return delivery;}
+        set{ delivery = value; }
+    }
+
+    public string ImageURL{
+        get  {   return imageURL; }
+        set  { imageURL = value; }
+    }
+
+    public float UnitPrice{
+        get  { return unitPrice; }
+        set  { unitPrice = value; }
+    }
     
-
-
+    public int Balance{
+        get{  return balance; }
+        set{  balance = value;}
+        }
 }
