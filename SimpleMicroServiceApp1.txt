@@ -1,0 +1,13 @@
+->dotnet new web -o SimpleMicroServiceApp1
+->dotnet sln add ./SimpleMicroserviceApp1/SimpleMicroserviceApp1.csproj.
+->cd SimpleMicroServiceApp1
+->dotnet build
+->dotnet run
+
+-create BOL folder--create Activity.cs file
+-create DAL folder--create ProjectDBManager.cs file
+-create BLL folder--create ProjectManager.cs file
+
+edit (program.cs) file
+
+
