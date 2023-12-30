@@ -1,0 +1,37 @@
+@using System.Collections.Generic;;
+@using BOL;
+@using BLL;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4"><b><i>Welcome To Surya Pets</i></b></h1>
+
+    @{
+        List<Product> products = (List<Product>)ViewData["products"];
+        foreach (Product p in products)
+        {
+            <table border="2px">
+                  <tr>
+                     <th>product_Id</th>
+                     <th>product_Name</th>
+                     <th>product_Price</th>
+                  </tr>
+                  <tr>
+                     <td>@p.Product_Id</td>
+                     <td>@p.Product_Name</td>
+                     <td>@p.Product_Price</td>
+                  </tr>
+            </table>
+            
+            <!-- <p> <b>Id :</b> @p.Product_Id  <b>Name :</b> @p.Product_Name -->
+        }
+      
+     }
+
+
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
