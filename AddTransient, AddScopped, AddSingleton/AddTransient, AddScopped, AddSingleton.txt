@@ -1,0 +1,11 @@
+public void ConfigureServices(IServiceCollection services) 
+{
+    // Transient: New waiter for each table (per request)
+    services.AddTransient<ITableService, TableService>();
+
+    // Scoped: One waiter per group of customers (per request)
+    services.AddScoped<IWaiterService, WaiterService>();
+
+    // Singleton: One head chef for the entire restaurant (shared)
+    services.AddSingleton<IChefService, ChefService>();
+}
