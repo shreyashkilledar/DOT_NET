@@ -1,0 +1,57 @@
+@using BOL;
+@using DAL;
+@using BLL;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @{
+        List<Product> allproducts=(List<Product>)ViewData["prod1"];
+            foreach(Product p in allproducts)
+            {
+                @* <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style> *@
+
+<style>
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+</style>
+                <table border="2">
+                    <tr>
+                        <th style="width:30%">ID</th>
+                        <th style="width:40%">Name</th>
+                        <th style="width:30%">Price</th>
+                    </tr>
+                    <tr>
+                        <td>@p.id</td>
+                        <td>@p.name</td>
+                        <td>@p.price</td>
+                        <br/>
+                    </tr>
+                
+            
+            </table>
+    }
+  }  
+    
