@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\bin\Debug\net8.0\BOL.deps.json
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\bin\Debug\net8.0\BOL.dll
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\bin\Debug\net8.0\BOL.pdb
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\BOL.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\BOL.AssemblyInfo.cs
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\BOL.dll
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\refint\BOL.dll
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\BOL.pdb
+C:\Users\HP\Desktop\PG-DAC\DOTNET\SKProject\BOL\obj\Debug\net8.0\ref\BOL.dll
