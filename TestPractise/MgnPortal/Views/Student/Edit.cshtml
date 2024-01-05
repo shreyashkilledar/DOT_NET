@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Display Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Edit Student</h1>
+    <hr/>
+    @{
+        string? a = this.ViewData["Res"] as string;
+    }
+    
+    <p>@a</p>
+    <form method="post">
+        <label for="rlno">Roll No: <input type="number" name="rollno" id="rlno" placeholder="Enter RollNo" /></label>
+        <br/>
+        <br/>
+        <label for="fname">Firstname: <input type="text" name="fname" id="fname" placeholder="Enter Firstname" /></label>
+        <br/>
+        <br/>
+        <label for="lname">Lastname: <input type="text" name="lname" id="lname" placeholder="Enter Lastname" /></label>
+        <br/>
+        <br/>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+
+</div>

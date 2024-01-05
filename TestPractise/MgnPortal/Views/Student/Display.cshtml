@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Display Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Students List</h1>
+    <hr/>
+    @{
+        string? a = this.ViewData["Res"] as string;
+    }
+    
+    <p>@a</p>
+    @{
+        var list = this.ViewData["display"] as List<Student>;
+        <table border="1" align="center">
+            <thead align="center">
+                <tr>
+                    <th>Roll No</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Details</th>
+                    @*<th>Edit</th>
+                    <th>Delete</th> *@
+                </tr>
+            </thead>
+            @foreach(Student std in list){
+                <tbody align="center">
+                    <tr>
+                        <td>@std.RollNo</td>
+                        <td>@std.Fname</td>
+                        <td>@std.Lname</td>
+                        <td><a href="/Student/Details/@std.RollNo">Details</a></td>
+                        @*<td><a href="Edit">Edit</a></td>
+                        <td><a href="Delete">Delete</a></td> *@
+                    </tr>
+                </tbody>
+            }
+        </table>
+        <br/>
+        <a href="Add"><button class="btn btn-primary"> Add New Students</button></a>
+        <a href="Delete"><button class="btn btn-primary"> Delete Students</button></a>
+        <a href="Edit"><button class="btn btn-primary"> Update Students</button></a>
+        
+    }
+
+</div>
