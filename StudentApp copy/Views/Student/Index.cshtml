@@ -1,0 +1,38 @@
+﻿@using BOL;
+@using BLL;
+@{
+    ViewData["Title"] = "All Student Page";
+}
+
+<div class="text-center">
+ <h1 class="display-4">All Students</h1>
+    
+    @{
+        List<Student> s2 = ViewData["stud"] as List<Student>;
+      
+               <table border=2>
+               <tr> 
+                 <th>Id</th>
+                 <th>First Name</th>  
+                 <th>Last Name</th>
+                 <th>Standard</th>
+                 <th>Edit/Delete</th>
+                </tr>
+
+                  @foreach(Student stud in s2)
+           { 
+               <tr> 
+                 <td>@stud.Id</td>
+                 <td>@stud.Fname</td>  
+                 <td>@stud.Lname</td>
+                 <td>@stud.Standard</td>
+                 <td><a href="Edit">Edit</a> <a href="Delete">Delete</a></td>
+                </tr>
+           }
+                  
+             </table>
+    }
+            <a href="/Student/Insert">Add New Students</a>
+
+   
+</div>
